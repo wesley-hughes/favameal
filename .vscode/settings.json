@@ -2,5 +2,15 @@
     "python.linting.pylintArgs": [
         "--load-plugins=pylint_django",
         "--django-settings-module=favameal.settings",
-    ]
+    ],
+    "todo-tree.tree.showBadges": false,
+    "todo-tree.tree.disableCompactFolders": false,
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "background": "#ff000080"
+        },
+        "[x]": {
+            "background": "#00ff0080"
+        }
+    }
 }
